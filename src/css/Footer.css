@@ -1,0 +1,12 @@
+section.backToTop {
+	background: #211a2c;
+}
+section.backToTop > p {
+	color: white;
+}
+footer {
+	background: #150e21;
+}
+footer * {
+	color: white;
+}

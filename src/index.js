@@ -1,0 +1,29 @@
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import reportWebVitals from './reportWebVitals';
+
+import './index.css';
+import Header from './Header';
+import Plantilla from './components/Plantilla';
+// import Partidos from './components/Partidos';
+// import Formacion from './components/Formacion';
+import Footer from './Footer';
+
+document.title = "VOLATIL F.C.";
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <Header />
+    <Plantilla mensaje="Partidos" />
+    <Plantilla mensaje="Formacion" />
+    {/* <Partidos /> */}
+    {/* <Formacion /> */}
+    <Footer tezto="Vooooooooolatiles&nbsp;!" />
+  </React.StrictMode>
+);
+
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+reportWebVitals();
