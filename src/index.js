@@ -2,12 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
 
-import './index.css';
-import Header from './Header';
+import './css/index.css';
+
+import Header from './components/Header';
+import Slider from './components/Slider';
 import Plantilla from './components/Plantilla';
-// import Partidos from './components/Partidos';
-// import Formacion from './components/Formacion';
-import Footer from './Footer';
+import Footer from './components/Footer';
 
 document.title = "VOLATIL F.C.";
 
@@ -15,11 +15,10 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Header />
+    <Slider banner="https://m.media-amazon.com/images/G/01/sm/amped/valorantS05/drop1/hero/update/desktop_hero_2x.jpg" juego="Valorant" />
     <Plantilla mensaje="Partidos" />
     <Plantilla mensaje="Formacion" />
-    {/* <Partidos /> */}
-    {/* <Formacion /> */}
-    <Footer tezto="Vooooooooolatiles&nbsp;!" />
+    <Footer />
   </React.StrictMode>
 );
 

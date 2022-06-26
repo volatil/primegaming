@@ -1,0 +1,6 @@
+section#slider {
+	width: 100%;
+}
+section#slider > img {
+	width: 100%;
+}

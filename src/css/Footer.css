@@ -1,12 +1,71 @@
-section.backToTop {
-	background: #211a2c;
-}
-section.backToTop > p {
-	color: white;
-}
 footer {
 	background: #150e21;
+	height: 240px;
+	position: relative;
 }
-footer * {
+footer > section.backToTop {
+	background: #211a2c;
+	box-shadow: 0 7px 20px -4px black;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	width: 100%;
+	cursor: pointer;
+}
+footer > section.backToTop > p {
 	color: white;
+}
+footer > div {
+	display: flex;
+	height: 100%;
+}
+footer > div > .logo {
+	width: 20%;
+}
+footer > div > .logo > a {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: var( --hipervinculo );
+}
+footer > div > .texto {
+	width: 60%;
+	font-size: .8em;
+	display: flex;
+	align-items: center;
+}
+footer > div > .texto > div {
+	position: relative;
+	padding-left: 20px;
+}
+footer > div > .texto > div > span.rayita {
+	background: white;
+	position: absolute;
+	width: 1px;
+	height: 100%;
+	display: block;
+	left: 0;
+}
+footer > div > .texto > div > p {
+	margin: 0 0 5px 0;
+	color: var( --textoFooter );
+}
+footer > div > .texto > div > ul {
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+footer > div > .texto > div > ul > li {
+	list-style: none;
+}
+footer > div > .texto > div > ul > li > a {
+	text-decoration: none;
+	margin-right: 10px;
+}
+footer > div > .texto > div > ul > li > a:hover {
+	text-decoration: underline;
 }
