@@ -13,9 +13,19 @@ class Footer extends Component {
 						<p>Back to top</p>
 					</section>
 					<footer>
-						<img src={ amazongaming } alt="Amazon Gaming" />
-						<p>{this.props.tezto}</p>
-						<img src={ amazon } alt="Amazon.com" />
+						<div>
+							<a href="https://gaming.amazon.com/" target="_blank" rel="noreferrer">
+								<img src={ amazongaming } alt="Amazon Gaming" />
+							</a>
+						</div>
+						<div>
+							<p>{this.props.tezto}</p>
+						</div>
+						<div>
+							<a href="https://amazon.com/" target="_blank" rel="noreferrer">
+								<img src={ amazon } alt="Amazon.com" />
+							</a>
+						</div>
 					</footer>
 				</React.Fragment>
 		);
