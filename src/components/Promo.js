@@ -36,8 +36,10 @@ class Promo extends Component {
 				<div className="countdown">
 					<p>Ends in <strong>14 days</strong></p>
 				</div>
-				<p>{ this.props.titulo }</p>
-				{ this.claim() }
+				<div className="info">
+					<p>{ this.props.titulo }</p>
+					{ this.claim() }
+				</div>
 			</section>
 		);
 	}
