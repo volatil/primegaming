@@ -30,6 +30,7 @@ section#slider > div.bajada > strong {
 }
 section#slider > div.bajada > button {
 	background: var( --btnNormal );
+	cursor: pointer;
 	border: none;
 	padding: 8px 10px;
 	border-radius: 4px;

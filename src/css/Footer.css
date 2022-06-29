@@ -2,6 +2,7 @@ footer {
 	background: #150e21;
 	height: 240px;
 	position: relative;
+	margin-top: 50px;
 }
 footer > section.backToTop {
 	background: #211a2c;
