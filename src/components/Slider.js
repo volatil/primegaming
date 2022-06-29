@@ -8,7 +8,17 @@ class Slider extends Component {
 	render(){
 		return(
 			<section id="slider">
-				<img src={ this.props.banner } alt={ this.props.juego } />
+				<div className="bajada">
+					<h3>{ this.props.juego }</h3>
+					<p>{ this.props.parrafo }</p>
+					<strong>{ this.props.strong }</strong>
+					<button>{ this.props.button }</button>
+				</div>
+				<div className="background">
+					<video loop muted autoPlay playsInline>
+						<source type="video/mp4" src="https://m.media-amazon.com/images/G/01/sm/amped/rss_S05/video_desktop_hero_2._CB1198675309_.mp4"></source>
+					</video>
+				</div>
 			</section>
 		);
 	}

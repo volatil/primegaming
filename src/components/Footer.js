@@ -9,11 +9,10 @@ import amazongaming from '../images/amazongaming.png';
 class Footer extends Component {
 
 	clickTest = () => {
-			console.log( `click LOGO` );
-			$("html, body").animate({ scrollTop: 0 }, 600);
-			return false;
+		console.log( `click back to top` );
+		$("html, body").animate({ scrollTop: 0 }, 600);
+		return false;
 	}
-	
 	render() {
 		return (
 				<footer>

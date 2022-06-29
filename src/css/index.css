@@ -4,6 +4,9 @@
 	--header:       #0b0418;
 	--textoFooter:  #c2bcd3;
 	--hipervinculo: #b9a4ec;
+	/* BOTONES */
+	--btnNormal: #9146ff;
+	--btnHover: #b27eff;
 }
 a {
 	color: var( --hipervinculo );
@@ -13,6 +16,7 @@ body {
 	font-family: 'Roboto', sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	color: white;
 }
 code {
 	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

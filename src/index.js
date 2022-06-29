@@ -14,8 +14,8 @@ document.title = "VOLATIL F.C.";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Header />
-    <Slider banner="https://m.media-amazon.com/images/G/01/sm/amped/valorantS05/drop1/hero/update/desktop_hero_2x.jpg" juego="Valorant" />
+    <Header lenguaje="ES" nombre="Paulo" />
+    <Slider juego="Rainbow Six Siege" parrafo="Unlock gear and boosters to take your Operators to the next level — available for Prime members." strong="Free with Prime" button="Get in-game content" />
     <Plantilla mensaje="Partidos" />
     <Plantilla mensaje="Formacion" />
     <Footer />

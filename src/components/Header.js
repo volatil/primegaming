@@ -8,14 +8,29 @@ class Header extends Component {
 	clickTest = () => {
 		console.log( `click LOGO` );
 	}
-	navTestClick = ( params ) => {
-		console.log( `click NAV` );
-	}
 	render(){
 		return(
 			<header>
 				<div className="centrado">
-					<img onClick={this.clickTest} className="logo" src={logo_primegaming} alt="Prime Gaming" />
+					<div className="logo">
+						<img onClick={this.clickTest} src={logo_primegaming} alt="Prime Gaming" />
+					</div>
+					<div className="dash">
+						<div className="lenguaje">
+							<div>
+								<span className="planeta"></span>
+								<strong>{ this.props.lenguaje }</strong>
+								<span className="arrow"></span>
+							</div>
+						</div>
+						<div className="usuario">
+							<div>
+								<span className="user"></span>
+								<strong>{ this.props.nombre }</strong>
+								<span className="arrow"></span>
+							</div>
+						</div>
+					</div>
 				</div>
 			</header>
 		);

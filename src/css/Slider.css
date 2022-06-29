@@ -1,6 +1,47 @@
 section#slider {
 	width: 100%;
+	position: relative;
 }
-section#slider > img {
+section#slider > div.bajada {
+	--margenBajadaSlider: 80px;
+	position: absolute;
+	top: var( --margenBajadaSlider );
+	left: var( --margenBajadaSlider );
+	z-index: 1;
+	display: flex;
+	flex-direction: column;
+}
+section#slider > div.bajada > * {
+	color: white;
+}
+section#slider > div.bajada > h3 {
+	font-size: 1.9em;
+	font-weight: 400;
+	margin-bottom: 10px;
+}
+section#slider > div.bajada > p {
+	font-weight: 400;
+	width: 300px;
+	line-height: 1.4em;
+	margin-bottom: 60px;
+}
+section#slider > div.bajada > strong {
+	margin-bottom: 10px;
+}
+section#slider > div.bajada > button {
+	background: var( --btnNormal );
+	border: none;
+	padding: 8px 10px;
+	border-radius: 4px;
+	width: 162px;
+	font-size: 0.9em;
+	font-weight: 500;
+	letter-spacing: 0.03em;
+}
+section#slider > div.bajada > button:hover {
+	background: var( --btnHover );
+}
+section#slider > div.background {}
+section#slider > div.background > video {
 	width: 100%;
 }
