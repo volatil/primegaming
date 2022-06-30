@@ -9,7 +9,7 @@ import Slider from './components/Slider';
 import Promo from './components/Promo';
 import Footer from './components/Footer';
 
-document.title = "VOLATIL F.C.";
+document.title = "Prime Gaming";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

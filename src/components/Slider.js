@@ -68,7 +68,6 @@ class Slider extends Component {
 			juego[ "video" ] = <img src={ juego.video } alt={ juego.nombre } />;
 		}
 		
-		
 		return(
 			<section id="slider">
 				<div className="bajada">
