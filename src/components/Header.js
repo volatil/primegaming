@@ -9,11 +9,12 @@ class Header extends Component {
 		console.log( `click LOGO` );
 	}
 	render(){
+		let titlealt = "Prime Gaming";
 		return(
 			<header>
 				<div className="centrado">
 					<div className="logo">
-						<img onClick={this.clickTest} src={logo_primegaming} alt="Prime Gaming" />
+						<img onClick={this.clickTest} src={logo_primegaming} alt={ titlealt } />
 					</div>
 					<div className="dash">
 						<div className="lenguaje">

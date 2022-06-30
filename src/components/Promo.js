@@ -30,7 +30,6 @@ class Promo extends Component {
 	
 	render(){
 		return(
-			// <section className="promo">
 			<section className={ this.claimClase() }>
 				<img src={ this.props.imagen } alt={ this.props.titulo } />
 				<div className="countdown">
