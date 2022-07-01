@@ -8,9 +8,10 @@ class Slider extends Component {
 	  
 	render(){
 		var juego = {
-			nombre: this.props.juego ,
-			parrafo: this.props.parrafo ,
-			video : "" ,
+			nombre  : this.props.juego ,
+			parrafo : this.props.parrafo ,
+			video   : "" ,
+			button  : this.props.button ,
 		}
 		
 		var numeroRandomsss = parseInt( Math.random()*10 )
@@ -51,9 +52,13 @@ class Slider extends Component {
 			juego["parrafo"] = "Corned beef hamburger pork loin shankle, pork chop leberkas chicken drumstick pork belly.";
 			juego[ "video" ] = "https://m.media-amazon.com/images/G/01/sm/CallOfDutyS03/2022/Drop15/CoD_VAN_Warzone_US_PrimeGaming_S4KeyArt_1440x784_v03._CB635341610_.jpg";
 		} else if ( numeroRandomsss === 9 ) {
-			juego["nombre"] = "Road Trip";
-			juego["parrafo"] = "Ribeye burgdoggen andouille, chuck meatloaf pastrami kielbasa pig sirloin pork loin sausage alcatra prosciutto landjaeger jowl.";
-			juego[ "video" ] = "https://m.media-amazon.com/images/G/01/sm/LegacyGames/RoadTrip/Road_Trip_Desktop_1x_v2.jpg";
+			// juego["nombre"] = "Road Trip";
+			// juego["parrafo"] = "Ribeye burgdoggen andouille, chuck meatloaf pastrami kielbasa pig sirloin pork loin sausage alcatra prosciutto landjaeger jowl.";
+			// juego[ "video" ] = "https://m.media-amazon.com/images/G/01/sm/LegacyGames/RoadTrip/Road_Trip_Desktop_1x_v2.jpg";
+			juego["nombre"] = "Prime Day";
+			juego["parrafo"] = "To celebrate Prime Day, we're giving away 30+ games–for FREE. Start claiming your games now through July 13.";
+			juego[ "video" ] = "https://m.media-amazon.com/images/G/01/sm/amped/pd22/PD_PGHQ_Hero_v1EA.mp4";
+			juego[ "button" ] = "Start Freeloading";
 		} else {
 			juego[ "nombre" ] = "ERROR [202206291254]";
 			juego[ "parrafo" ] = "uwu";
@@ -75,7 +80,7 @@ class Slider extends Component {
 					<p>{ juego.parrafo }</p>
 					
 					<strong>{ this.props.strong }</strong>
-					<button>{ this.props.button }</button>
+					<button>{ juego.button }</button>
 				</div>
 				<div className="background">
 					{ juego.video }
