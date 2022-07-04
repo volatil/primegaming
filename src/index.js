@@ -6,16 +6,23 @@ import './css/index.css';
 
 import Header from './components/Header';
 import Slider from './components/Slider';
+import Nav from './components/Nav';
 import Promo from './components/Promo';
 import Footer from './components/Footer';
+
+import Test from './components/Test';
 
 document.title = "Prime Gaming";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-	<React.StrictMode>
+	<React.Fragment>
+		
+		<Test />
+		
 		<Header lenguaje="ES" nombre="Paulo" />
 		<Slider juego="Rainbow Six Siege" parrafo="Unlock gear and boosters to take your Operators to the next level — available for Prime members." strong="Free with Prime" button="Get in-game content" />
+		<Nav />
 		<div className="modulo">
 			<div className="tituloModulo">
 				<h3>Our favorites, <strong>free width Prime</strong></h3>
@@ -51,7 +58,8 @@ root.render(
 			</div>
 		</div>
 		<Footer />
-	</React.StrictMode>
+		
+	</React.Fragment>
 	);
 	
 	// If you want to start measuring performance in your app, pass a function
