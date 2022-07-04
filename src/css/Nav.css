@@ -1,0 +1,72 @@
+section.nav {
+	display: flex;
+	justify-content: center;
+	padding: 30px 0;
+}
+section.nav > div {
+	display: flex;
+	justify-content: space-between;
+}
+section.nav > div > .buscador {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border: 1px solid white;
+	border-radius: 30px;
+	width: 400px;
+	height: 60px;
+	overflow: hidden;
+	outline: none;
+}
+section.nav > div > .buscador > span.lupa {
+	--medidaNavLupa: 25px;
+	display: block;
+	height: var( --medidaNavLupa );
+	width: var( --medidaNavLupa );
+	background-image: url( "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iNzUycHQiIGhlaWdodD0iNzUycHQiIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDc1MiA3NTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiA8cGF0aCBkPSJtNTA3LjI3IDQ1NS45NmMyNi4xMDItMzguODQ4IDM2LjgwNS04Ni4wMiAzMC4wMjMtMTMyLjMzLTYuNzgxMi00Ni4zMDUtMzAuNTU1LTg4LjQzLTY2LjY5NS0xMTguMTctMzYuMTQxLTI5LjczNC04Mi4wNTktNDQuOTQ5LTEyOC44LTQyLjY4NC00Ni43NDYgMi4yNjU2LTkwLjk3MyAyMS44NTUtMTI0LjA3IDU0Ljk0OXMtNTIuNjggNzcuMzItNTQuOTQ1IDEyNC4wN2MtMi4yNjk1IDQ2Ljc0NiAxMi45NDkgOTIuNjY0IDQyLjY4NCAxMjguOCAyOS43MzggMzYuMTQxIDcxLjg2MyA1OS45MTggMTE4LjE3IDY2LjY5NSA0Ni4zMDkgNi43ODEyIDkzLjQ4LTMuOTIxOSAxMzIuMzMtMzAuMDJsNzEuMjE5IDcxLjIxNWM5LjE2OCA5LjE2OCAyMi41MjcgMTIuNzQ2IDM1LjA0NyA5LjM5MDYgMTIuNTItMy4zNTE2IDIyLjMwMS0xMy4xMzMgMjUuNjUyLTI1LjY1MiAzLjM1NTUtMTIuNTItMC4yMjI2Ni0yNS44NzktOS4zOTA2LTM1LjA0N3ptLTE1Ni4xOCAzOS43ODVjLTM4LjM2MyAwLTc1LjE1Ni0xNS4yNDItMTAyLjI5LTQyLjM3MXMtNDIuMzcxLTYzLjkyMi00Mi4zNzEtMTAyLjI5YzAtMzguMzYzIDE1LjI0Mi03NS4xNiA0Mi4zNzEtMTAyLjI5IDI3LjEyOS0yNy4xMjkgNjMuOTIyLTQyLjM3MSAxMDIuMjktNDIuMzcxIDM4LjM2MyAwIDc1LjE1NiAxNS4yNDIgMTAyLjI5IDQyLjM3MXM0Mi4zNzEgNjMuOTIyIDQyLjM3MSAxMDIuMjljLTAuMDQyOTY5IDM4LjM1NS0xNS4zMDEgNzUuMTI1LTQyLjQxOCAxMDIuMjQtMjcuMTIxIDI3LjExNy02My44ODcgNDIuMzc1LTEwMi4yNCA0Mi40MTh6IiBmaWxsPSIjZmZmIi8+Cjwvc3ZnPgo=" );
+	background-repeat: no-repeat;
+	background-position: -7px -3px;
+	background-size: 1.8em;
+	margin: 5px 5px 5px 15px;
+}
+section.nav > div > .buscador > input {
+	width: 100%;
+	height: 100%;
+	background-color: transparent;
+	background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iNzUycHQiIGhlaWdodD0iNzUycHQiIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDc1MiA3NTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiA8cGF0aCBkPSJtNTA3LjI3IDQ1NS45NmMyNi4xMDItMzguODQ4IDM2LjgwNS04Ni4wMiAzMC4wMjMtMTMyLjMzLTYuNzgxMi00Ni4zMDUtMzAuNTU1LTg4LjQzLTY2LjY5NS0xMTguMTctMzYuMTQxLTI5LjczNC04Mi4wNTktNDQuOTQ5LTEyOC44LTQyLjY4NC00Ni43NDYgMi4yNjU2LTkwLjk3MyAyMS44NTUtMTI0LjA3IDU0Ljk0OXMtNTIuNjggNzcuMzItNTQuOTQ1IDEyNC4wN2MtMi4yNjk1IDQ2Ljc0NiAxMi45NDkgOTIuNjY0IDQyLjY4NCAxMjguOCAyOS43MzggMzYuMTQxIDcxLjg2MyA1OS45MTggMTE4LjE3IDY2LjY5NSA0Ni4zMDkgNi43ODEyIDkzLjQ4LTMuOTIxOSAxMzIuMzMtMzAuMDJsNzEuMjE5IDcxLjIxNWM5LjE2OCA5LjE2OCAyMi41MjcgMTIuNzQ2IDM1LjA0NyA5LjM5MDYgMTIuNTItMy4zNTE2IDIyLjMwMS0xMy4xMzMgMjUuNjUyLTI1LjY1MiAzLjM1NTUtMTIuNTItMC4yMjI2Ni0yNS44NzktOS4zOTA2LTM1LjA0N3ptLTE1Ni4xOCAzOS43ODVjLTM4LjM2MyAwLTc1LjE1Ni0xNS4yNDItMTAyLjI5LTQyLjM3MXMtNDIuMzcxLTYzLjkyMi00Mi4zNzEtMTAyLjI5YzAtMzguMzYzIDE1LjI0Mi03NS4xNiA0Mi4zNzEtMTAyLjI5IDI3LjEyOS0yNy4xMjkgNjMuOTIyLTQyLjM3MSAxMDIuMjktNDIuMzcxIDM4LjM2MyAwIDc1LjE1NiAxNS4yNDIgMTAyLjI5IDQyLjM3MXM0Mi4zNzEgNjMuOTIyIDQyLjM3MSAxMDIuMjljLTAuMDQyOTY5IDM4LjM1NS0xNS4zMDEgNzUuMTI1LTQyLjQxOCAxMDIuMjQtMjcuMTIxIDI3LjExNy02My44ODcgNDIuMzc1LTEwMi4yNCA0Mi40MTh6IiBmaWxsPSIjZmZmIi8+Cjwvc3ZnPgo=');
+	background-position: 10px 14px;
+	background-repeat: no-repeat;
+	background-size: 1.8em;
+	color: white;
+	font-size: 1.1em;
+	padding-left: 55px;
+}
+section.nav > div > .buscador > input:focus {
+	outline: none;
+	background-color: #ffffff1f;
+}
+
+
+
+section.nav > div > nav {}
+section.nav > div > nav > ul {
+	padding: 0;
+	margin: 0;
+	display: flex;
+	height: 100%;
+	align-items: center;
+}
+section.nav > div > nav > ul > li {
+	list-style: none;
+	margin-right: 20px;
+	font-size: 1.2em;
+	border-radius: 27px;
+	padding: 20px 23px;
+	cursor: pointer;
+}
+section.nav > div > nav > ul > li.activo {
+	background: #3c3646;
+}
+section.nav > div > nav > ul > li:hover {
+	background: #292334;
+}

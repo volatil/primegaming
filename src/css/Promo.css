@@ -54,9 +54,11 @@
 }
 .promo > .info div.collected > p {
 	color: #6ac020;
+	margin: 7px 0;
 }
 .promo > .info > p {
 	font-weight: 500;
+	min-height: 38px;;
 }
 .promo > .info > button {
 	background: var( --btnNormal );
