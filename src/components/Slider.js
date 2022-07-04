@@ -32,9 +32,9 @@ class Slider extends Component {
 			juego["parrafo"] = "Ham hock meatball turkey, sausage short loin shankle hamburger beef kevin pig pastrami corned beef rump ground round fatback.";
 			juego[ "video" ] = "https://m.media-amazon.com/images/G/01/sm/Mobile/PokemonGO/Drop3/PokemonGo_S1Drop3_desktop_hero_1x.jpg";
 		} else if ( numeroRandomsss === 4 ) {
-			juego["nombre"] = "World of Warcraft";
-			juego["parrafo"] = "Pig meatloaf alcatra, picanha ground round cow strip steak tongue chislic pancetta tri-tip sirloin.";
-			juego[ "video" ] = "https://m.media-amazon.com/images/G/01/sm/WorldofWarcraft/S01/desktop_hero_1x_gradient._CB1198675309_.jpg";
+			juego["nombre"] = "NBA 2K22";
+			juego["parrafo"] = "Get in the game and gear up with two content drops for NBA 2K22, available only for Prime members";
+			juego[ "video" ] = "https://m.media-amazon.com/images/G/01/sm/amped/2k22/NBA2K22_S1Drop1_desktop_hero_2x.jpg";
 		} else if ( numeroRandomsss === 5 ) {
 			juego["nombre"] = "Rainbow Six Siege";
 			juego["parrafo"] = "Porchetta doner rump jowl frankfurter pork belly. Pork belly bresaola turkey capicola shank pork chop corned beef meatball turducken short loin leberkas.";
@@ -42,19 +42,16 @@ class Slider extends Component {
 		} else if ( numeroRandomsss === 6 ) {
 			juego["nombre"] = "Lost Ark";
 			juego["parrafo"] = "Rump ball tip strip steak tenderloin sirloin prosciutto.";
-			juego[ "video" ] = "https://m.media-amazon.com/images/G/01/SM/Amped/lostark/drop1/LA_D1_desktop_hero_2x.jpg";
+			juego[ "video" ] = "https://m.media-amazon.com/images/G/01/sm/amped/lol11/heros/drop2_133c7/LoL_S11Drop2_desktop_hero_2x.jpg";
 		} else if ( numeroRandomsss === 7 ) {
-			juego["nombre"] = "Destiny 2";
-			juego["parrafo"] = "Fatback landjaeger rump ribeye. Turducken pork chop ham tongue. Chicken chuck jerky, capicola frankfurter tongue meatloaf ball tip.";
-			juego[ "video" ] = "https://m.media-amazon.com/images/G/01/sm/amped/destiny2/S03/Drop6/d2_s17_Prime-Gaming_ODP_Desktop_1x.jpg";
+			juego["nombre"] = "League of Legends";
+			juego["parrafo"] = "For a limited time, unlock Prime Gaming Capsules to get RP, mythic essence, skins, and more — available for Prime members.";
+			juego[ "video" ] = "https://m.media-amazon.com/images/G/01/sm/amped/lol11/heros/drop2_133c7/LoL_S11Drop2_desktop_hero_2x.jpg";
 		} else if ( numeroRandomsss === 8 ) {
 			juego["nombre"] = "Call of Duty";
 			juego["parrafo"] = "Corned beef hamburger pork loin shankle, pork chop leberkas chicken drumstick pork belly.";
 			juego[ "video" ] = "https://m.media-amazon.com/images/G/01/sm/CallOfDutyS03/2022/Drop15/CoD_VAN_Warzone_US_PrimeGaming_S4KeyArt_1440x784_v03._CB635341610_.jpg";
 		} else if ( numeroRandomsss === 9 ) {
-			// juego["nombre"] = "Road Trip";
-			// juego["parrafo"] = "Ribeye burgdoggen andouille, chuck meatloaf pastrami kielbasa pig sirloin pork loin sausage alcatra prosciutto landjaeger jowl.";
-			// juego[ "video" ] = "https://m.media-amazon.com/images/G/01/sm/LegacyGames/RoadTrip/Road_Trip_Desktop_1x_v2.jpg";
 			juego["nombre"] = "Prime Day";
 			juego["parrafo"] = "To celebrate Prime Day, we're giving away 30+ games–for FREE. Start claiming your games now through July 13.";
 			juego[ "video" ] = "https://m.media-amazon.com/images/G/01/sm/amped/pd22/PD_PGHQ_Hero_v1EA.mp4";
